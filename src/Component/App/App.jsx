@@ -7,6 +7,7 @@ import Movies from '../Movie/Movies.jsx';
 import Register from '../Register/Register.jsx';
 import Login from '../Login/Login.jsx';
 import Detailes from '../Detailes/Detailes.jsx';
+import TvShowes from '../TvShowes/TvShowes.jsx';
 function App() {
  const routes=createBrowserRouter([
   {path:"",element:<MasterLayout/>,children:[
@@ -16,6 +17,8 @@ function App() {
     {path:'register',element:<Register/>},
     {path:'details',element:<Detailes/>},
     {path:'login',element:<Login/>},
+    {path:'tvshowes',element:<TvShowes/>},
+
   ]}
  ])
 return(

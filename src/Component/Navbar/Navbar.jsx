@@ -24,14 +24,22 @@ export default function Navbar() {
         <li className="nav-item">
           <Link className="nav-link active" aria-current="page" to='detailes'>Detailes</Link>
         </li>
-
+        <li className="nav-item">
+          <Link className="nav-link active" aria-current="page" to='TvShowes'>TvShowes</Link>
+        </li>
       </ul>
     </div>
-    <div>
-      
+    <div>  
     </div>
+  
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+      <div className="social d-flex align-items-center bg-danger">
+      <i className="fab fa-facebook mx-2 "></i>
+      <i className="fab fa-instagram mx-2"></i>
+      <i className="fab fa-spotify mx-2"></i>
+      <i className="fab fa-youtube mx-2"></i>
+    </div>
         <li className="nav-item">
           <Link className="nav-link active" aria-current="page" to='register'>Register</Link>
         </li>

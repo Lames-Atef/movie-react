@@ -5,7 +5,9 @@ export default function MasterLayout() {
   return (
     <>
     <Navbar/>
-    <Outlet></Outlet>
+   <div className='container-fluid'>
+   <Outlet></Outlet>
+   </div>
     </>
   )
 }
